@@ -1,7 +1,9 @@
 LunchPy
 =======
 
-Written by Michael Denkowski (michael.j.denkowski@gmail.com)
+Written by Michael Denkowski (mdenkows@cs.cmu.edu)
+
+Copyright: Carnegie Mellon University
 
 License: public domain
 
