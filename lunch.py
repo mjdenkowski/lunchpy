@@ -1,2 +1,2 @@
-#!/usr/bin/env python
-import random, os, sys ; print random.choice(sys.argv[1:] if len(sys.argv) > 1 else [x.strip() for x in open(os.path.join(os.getenv('HOME') or os.getenv('USERPROFILE'), '.lunchrc'))] if os.path.exists(os.path.join(os.getenv('HOME') or os.getenv('USERPROFILE'), '.lunchrc')) else ['Usage: {0} [option1, option2, ...]\nor add choices (one per line) to .lunchrc in your home directory'.format(sys.argv[0])])
+#!/usr/bin/env python3
+import pathlib as p, random, sys as s; print(random.choice(s.argv[1:] if s.argv[1:] else [x.strip() for x in open(p.Path("~/.lunchrc").expanduser())] if p.Path("~/.lunchrc").expanduser().exists() else [f"Usage: {s.argv[0]} [option1, option2, ...]\nor add entries one-per-line to {p.Path('~/.lunchrc').expanduser()}"]))

@@ -1,20 +1,16 @@
-LunchPy
-=======
+# LunchPy
 
-Written by Michael Denkowski (mdenkows@cs.cmu.edu)
+**License: public domain**
 
-Copyright: Carnegie Mellon University
+This software uses space-age Python to solve one of life's most important questions: where to eat lunch today.
 
-License: public domain
+### New Version 3.0
 
-This software uses space-age Python coding techniques to solve the ever-
-difficult problem facing grad students on a daily basis: where to eat lunch.
+- Updated for Python 3.6 and Web 3.0 with improved cross-platform support!
+- Optimized implementation with 85 fewer characters!
 
-Features:
+### Feature Highlights
 
-* Solves the problem of where to eat lunch in O(n)!
-* Modify your .lunchrc to include favorite places to eat!
-* Written in one line of Python (like most things worth doing)!
-* Includes long bullet point lists with exclamation points!
-
-Add entries to $HOME/.lunchrc (one per line).
+- Solves the lunch problem in O(n)!
+- Modify your .lunchrc file to include your favorites!
+- Written in one line of Python (the hallmark of a truly serious project)!
